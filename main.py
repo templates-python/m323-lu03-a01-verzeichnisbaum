@@ -1,3 +1,8 @@
+"""Rekursive Suche in einem Verzeichnisbaum.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/verzeichnisbaum
+"""
+
 directory_tree = {
     'type': 'directory',
     'name': 'root',
