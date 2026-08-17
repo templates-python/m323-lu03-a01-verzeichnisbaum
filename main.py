@@ -1,3 +1,8 @@
+"""Rekursive Suche in einem Verzeichnisbaum.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/verzeichnisbaum
+"""
+
 directory_tree = {
     'type': 'directory',
     'name': 'root',
@@ -80,5 +85,5 @@ def find_file(name, directory):
 
 
 if __name__ == '__main__':
-    path = find_file('config.yaml', directory_tree)
-    print(path)  # Sollte den Pfad zur Datei ausgeben
+    demo_path = find_file('config.yaml', directory_tree)
+    print(demo_path)  # Sollte den Pfad zur Datei ausgeben
